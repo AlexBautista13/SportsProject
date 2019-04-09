@@ -1,0 +1,81 @@
+/*Hero section styles*/
+.hero-section{
+    background-image: url(../images/logos/LA\ LAKERS\ LOGO\ Tablet\ NBA\ Wallpapers.jpg);
+    padding: 100px;
+    height:300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section > .top-heading {
+    padding: 1px 20px;
+    color:purple;
+    width: 145px;
+    border-radius: 2px;
+}
+
+.hero-section > .bottom-heading {
+    color:purple;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 107px;
+    border-radius: 2px;
+}
+
+/*Features section styles*/
+.features-section {
+    height:400px;
+    background-image: url(../images/backgrounds/merlin_145609479_cce71c74-455f-4025-b293-5f15e5712ccf-articleLarge.jpg);
+    background-color: white;
+    border-top: 10px solid white;
+    columns:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-family: "Ubuntu Condensed", sans-serif;
+    box-shadow: inset  0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.features-section > .columns-wrapper{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.features-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column:hover {
+    border-bottom: 5px solid white;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1) {
+    font-size: 3em;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    height:50px;
+    transition: 1s;
+    color:white;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2) :hover {
+    letter-spacing: 1px;
+    color: white;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(3) {
+    letter-spacing: 2px;
+    color:white;
+}
